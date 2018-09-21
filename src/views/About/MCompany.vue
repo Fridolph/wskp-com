@@ -20,9 +20,12 @@
 <style lang="stylus" scoped>
 .m-company
   padding 50px
+  text-align justify
   .title
     margin-bottom 80px
   .content
+    max-width 1000px
+    margin 0 auto
     p
       margin-bottom 15px
       line-height 1.7

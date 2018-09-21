@@ -9,6 +9,7 @@
       <MJoin />
     </div>
     <PageFooter />
+    <PageTools />
   </PageContainer>
 </template>
 
@@ -16,6 +17,7 @@
 import PageContainer from '@/components/PageContainer'
 import PageHeader from '@/components/PageHeader'
 import PageFooter from '@/components/PageFooter'
+import PageTools from '@/components/PageTools'
 import MBanner from './MBanner'
 import MCompany from './MCompany'
 import MHonor from './MHonor'
@@ -27,6 +29,7 @@ export default {
     PageContainer,
     PageHeader,
     PageFooter,
+    PageTools,
     MBanner,
     MCompany,
     MHonor,

@@ -24,7 +24,7 @@
 .learn-direction
   background-color #000
   margin 50px 0
-  background url('/img/research.jpg') no-repeat left center
+  background url('/img/banner/research.jpg') no-repeat left center
   background-size 100% 100%
   background-attachment fixed
   padding 90px 0
@@ -38,7 +38,8 @@
     .item
       background-color #fff
       width 220px
-      margin 0 50px
+      flex 0 0 220px
+      margin 0 40px
       text-align center
       color #666
       position relative

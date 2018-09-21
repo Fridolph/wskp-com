@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <router-view/>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 <style lang="stylus">
@@ -16,4 +18,7 @@ ul, li, ol
   list-style none
 a
   text-decoration none
+
+.page-content
+  padding-top 50px
 </style>

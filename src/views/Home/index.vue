@@ -10,19 +10,21 @@
       <MAbout />
     </div>
     <PageFooter />
+    <PageTools />
   </PageContainer>
 </template>
 
 <script>
 import PageContainer from '../../components/PageContainer'
 import PageHeader from '@/components/PageHeader'
-import Swiper from './Swiper'
+import Swiper from '@/components/Swiper'
 import MProduct from './MProduct'
 import MSafe from './MSafe'
 import MProgram from './MProgram'
 import MDirection from './MDirection'
 import MAbout from './MAbout'
 import PageFooter from '../../components/PageFooter'
+import PageTools from '../../components/PageTools'
 
 export default {
   components: {
@@ -34,7 +36,8 @@ export default {
     MProgram,
     MDirection,
     MAbout,
-    PageFooter
+    PageFooter,
+    PageTools
   }
 }
 </script>

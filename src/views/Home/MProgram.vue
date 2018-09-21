@@ -6,7 +6,7 @@
     <div class="article">
       <div class="article-item">
         <div class="img-wrapper">
-          <img src="/img/article1.jpg" alt="金融行业信息安全解决方案">
+          <img src="/img/homepage/case1.jpg" alt="金融行业信息安全解决方案">
         </div>
         <div class="content">
           <div class="title">金融行业信息安全解决方案</div>
@@ -19,7 +19,7 @@
       </div>
       <div class="article-item">
         <div class="img-wrapper">
-          <img src="/img/article2.jpg" alt="电子政务云信息安全解决方案">
+          <img src="/img/homepage/case2.jpg" alt="电子政务云信息安全解决方案">
         </div>
         <div class="content">
           <div class="title">电子政务云信息安全解决方案</div>
@@ -32,7 +32,7 @@
       </div>
       <div class="article-item">
         <div class="img-wrapper">
-          <img src="/img/article3.jpg" alt="能源行业信息安全解决方案">
+          <img src="/img/homepage/case3.jpg" alt="能源行业信息安全解决方案">
         </div>
         <div class="content">
           <div class="title">能源行业信息安全解决方案</div>
@@ -45,7 +45,7 @@
       </div>
       <div class="article-item">
         <div class="img-wrapper">
-          <img src="/img/article4.jpg" alt="运营商IDC信息安全解决方案">
+          <img src="/img/homepage/case4.jpg" alt="运营商IDC信息安全解决方案">
         </div>
         <div class="content">
           <div class="title">运营商IDC信息安全解决方案</div>
@@ -59,12 +59,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
 
 <style lang="stylus" scoped>
 .program

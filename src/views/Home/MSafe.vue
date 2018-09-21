@@ -186,7 +186,7 @@ export default {
   margin-top 90px
   height 270px
   line-height 270px
-  background url('/img/service-bg.png') no-repeat center center
+  background url('/img/banner/service-bg.jpg') no-repeat center center
   background-size 100% 100%
   background-attachment fixed
   .text

@@ -6,7 +6,7 @@
     <ul class="product-list">
       <li class="list-item">
         <div class="img-wrapper">
-          <img src="/img/pro1.jpg" alt="终端侦测与响应系统">
+          <img src="/img/homepage/pro1.jpg" alt="终端侦测与响应系统">
         </div>
         <div class="text">
           <span>天蝎终端威胁侦测与响应系统（EDR）</span>
@@ -15,7 +15,7 @@
       </li>
       <li class="list-item">
         <div class="img-wrapper">
-          <img src="/img/pro2.jpg" alt="底层硬件威胁检测工具">
+          <img src="/img/homepage/pro2.jpg" alt="底层硬件威胁检测工具">
         </div>
         <div class="text">
           <span>天蝎底层硬件威胁检测工具</span>
@@ -24,7 +24,7 @@
       </li>
       <li class="list-item">
         <div class="img-wrapper">
-          <img src="/img/pro3.jpg" alt="态势感知">
+          <img src="/img/homepage/pro3.jpg" alt="态势感知">
         </div>
         <div class="text">
           <span>天蝎安全态势感知平台</span>

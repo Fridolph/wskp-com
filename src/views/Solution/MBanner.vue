@@ -1,6 +1,6 @@
 <template>
   <div class="about-module m-banner">
-    <img src="/img/banner/contact.jpg" alt="">
+    <img src="/img/banner/solution_banner.jpg" alt="">
   </div>
 </template>
 
