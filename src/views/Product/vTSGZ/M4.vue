@@ -1,0 +1,16 @@
+<template>
+  <div class="pro-module m-4">
+    <h2>全面响应</h2>
+
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="stylus" scoped>
+
+</style>
