@@ -9,16 +9,21 @@
     </keep-alive>
   </div>
 </template>
-<style lang="stylus">
-*
-  margin 0
-  padding 0
-  box-sizing border-box
-ul, li, ol
-  list-style none
-a
-  text-decoration none
 
+<script>
+export default {};
+</script>
+
+<style lang="stylus">
+@import '~@/assets/css/iconfont.css';
+*
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ul, li, ol
+  list-style: none;
+a
+  text-decoration: none;
 .page-content
-  padding-top 50px
+  padding-top: 50px;
 </style>

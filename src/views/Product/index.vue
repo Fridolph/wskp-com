@@ -28,3 +28,15 @@ export default {
   }
 }
 </script>
+
+
+<style lang="stylus">
+.pro-module
+  margin-bottom 50px
+  .m-title
+    font-size 36px
+    font-weight 400
+    text-align center
+    margin 50px auto 80px
+    color #777
+</style>

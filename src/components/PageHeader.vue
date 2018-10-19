@@ -23,7 +23,8 @@
         <router-link tag="li" to="/about"><a>关于</a></router-link>
       </ul>
       <div class="tel">
-        400-008-1587
+        <i class="iconfont icon-ai-tel"></i>
+        <span>400-008-1587</span>
       </div>
     </div>
   </header>
@@ -71,8 +72,10 @@ export default {
       display inline-block
       font-size 14px
     .tel
-      margin-left 30px
+      margin-left 40px
       color #ff9c00
+      span
+        margin-left 8px
 
 .menu
   margin 0

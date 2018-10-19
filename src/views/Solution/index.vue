@@ -3,6 +3,7 @@
     <PageHeader />
     <div class="page-content">
       <MBanner />
+      <MTabWrapper />
     </div>
     <PageFooter />
     <PageTools />
@@ -15,6 +16,7 @@ import PageHeader from '@/components/PageHeader'
 import PageFooter from '@/components/PageFooter'
 import PageTools from '../../components/PageTools'
 import MBanner from './MBanner'
+import MTabWrapper from './MTabWrapper'
 
 export default {
   components: {
@@ -22,7 +24,8 @@ export default {
     PageHeader,
     PageFooter,
     PageTools,
-    MBanner
+    MBanner,
+    MTabWrapper
   }
 }
 </script>

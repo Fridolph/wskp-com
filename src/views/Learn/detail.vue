@@ -33,8 +33,14 @@ export default {
       }
     }
   },
+  watch: {
+    ['$route'](newVal) {
+      // console.log('研究详情 newVal', newVal)
+      let params = this.$route.params
+      this.article = params
+    }
+  },
   mounted() {
-    console.log(this.$route.params)
     let params = this.$route.params
     this.article = params
   }
@@ -43,13 +49,14 @@ export default {
 
 <style lang="stylus">
 .article-wrapper
-  max-width 800px
+  max-width 830px
   margin 60px auto 100px
+  padding 0 15px
   .title
     text-align center
     font-size 24px
     font-weight bold
-    margin-bottom 10px
+    margin-bottom 15px
   .date
     text-align center
   .img-wrapper
@@ -58,9 +65,15 @@ export default {
     img
       max-width 100%
   .content
+    padding-top 30px
     line-height 1.7
-    font-size 14px
+    font-size 15px
     p
       margin-bottom 10px
       text-indent 2em
+    ul
+      margin 15px
+
+  h3, h4, h5, h6
+    margin-bottom 15px
 </style>
