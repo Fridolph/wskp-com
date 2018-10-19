@@ -14,15 +14,15 @@
 </template>
 
 <script>
-import PageContainer from '@/components/PageContainer'
-import PageHeader from '@/components/PageHeader'
-import PageFooter from '@/components/PageFooter'
-import PageTools from '@/components/PageTools'
-import MBanner from './MBanner'
-import MCompany from './MCompany'
-import MHonor from './MHonor'
-import MPosition from './MPosition'
-import MJoin from './MJoin'
+import PageContainer from '@/components/PageContainer';
+import PageHeader from '@/components/PageHeader';
+import PageFooter from '@/components/PageFooter';
+import PageTools from '@/components/PageTools';
+import MBanner from './MBanner';
+import MCompany from './MCompany';
+import MHonor from './MHonor';
+import MPosition from './MPosition';
+import MJoin from './MJoin';
 
 export default {
   components: {
@@ -34,9 +34,9 @@ export default {
     MCompany,
     MHonor,
     MPosition,
-    MJoin
-  }
-}
+    MJoin,
+  },
+};
 </script>
 
 <style lang="stylus">

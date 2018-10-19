@@ -2,17 +2,72 @@
   <div class="about-module m-intro">
     <div class="intro-box">
       <div class="tab-menu">
-        <div :class="['menu-item', this.select === '渗透测试' ? 'active' : '']" @click="selectTab('渗透测试')"><div class="text">渗透测试 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '代码审计' ? 'active' : '']" @click="selectTab('代码审计')"><div class="text">代码审计 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '恶意代码分析' ? 'active' : '']" @click="selectTab('恶意代码分析')"><div class="text">恶意代码分析 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '安全加固' ? 'active' : '']" @click="selectTab('安全加固')"><div class="text">安全加固 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '风险评估' ? 'active' : '']" @click="selectTab('风险评估')"><div class="text">风险评估 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '分级保护咨询' ? 'active' : '']" @click="selectTab('分级保护咨询')"><div class="text">分级保护咨询 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '等级保护咨询' ? 'active' : '']" @click="selectTab('等级保护咨询')"><div class="text">等级保护咨询 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '应急响应' ? 'active' : '']" @click="selectTab('应急响应')"><div class="text">应急响应 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '安全值守' ? 'active' : '']" @click="selectTab('安全值守')"><div class="text">安全值守 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '安全培训' ? 'active' : '']" @click="selectTab('安全培训')"><div class="text">安全培训 <span>></span></div></div>
-        <div :class="['menu-item', this.select === '信息安全通告' ? 'active' : '']" @click="selectTab('信息安全通告')"><div class="text">信息安全通告 <span>></span></div></div>
+        <div
+          :class="['menu-item', this.select === '渗透测试' ? 'active' : '']"
+          @click="selectTab('渗透测试')"
+        >
+          <div class="text">渗透测试 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '代码审计' ? 'active' : '']"
+          @click="selectTab('代码审计')"
+        >
+          <div class="text">代码审计 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '恶意代码分析' ? 'active' : '']"
+          @click="selectTab('恶意代码分析')"
+        >
+          <div class="text">恶意代码分析 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '安全加固' ? 'active' : '']"
+          @click="selectTab('安全加固')"
+        >
+          <div class="text">安全加固 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '风险评估' ? 'active' : '']"
+          @click="selectTab('风险评估')"
+        >
+          <div class="text">风险评估 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '分级保护咨询' ? 'active' : '']"
+          @click="selectTab('分级保护咨询')"
+        >
+          <div class="text">分级保护咨询 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '等级保护咨询' ? 'active' : '']"
+          @click="selectTab('等级保护咨询')"
+        >
+          <div class="text">等级保护咨询 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '应急响应' ? 'active' : '']"
+          @click="selectTab('应急响应')"
+        >
+          <div class="text">应急响应 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '安全值守' ? 'active' : '']"
+          @click="selectTab('安全值守')"
+        >
+          <div class="text">安全值守 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '安全培训' ? 'active' : '']"
+          @click="selectTab('安全培训')"
+        >
+          <div class="text">安全培训 <span>></span></div>
+        </div>
+        <div
+          :class="['menu-item', this.select === '信息安全通告' ? 'active' : '']"
+          @click="selectTab('信息安全通告')"
+        >
+          <div class="text">信息安全通告 <span>></span></div>
+        </div>
       </div>
       <div :class="['tab-content', 'con-stcs', this.select === '渗透测试' ? 'active' : '']">
         <p class="desc">一种利用模拟黑客攻击的方式，来评估计算机网络系统安全性能的方法。</p>
@@ -39,7 +94,10 @@
           </ul>
         </div>
         <div class="img-wrapper">
-          <img src="/img/service/ser-cont.jpg" alt="">
+          <img
+            src="/img/service/ser-cont.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div :class="['tab-content', 'con-dmsj', this.select === '代码审计' ? 'active' : '']">
@@ -146,7 +204,10 @@
           安全测评：依据企业信息系统定级备案的安全级别，遵循等级保护测评标准，检测企业信息系统安全防护是否达到了国家等级保护要求，并提出信息安全建设整改指导建议。
         </p>
         <div class="img-wrapper">
-          <img src="/img/service/ser_dengbao.jpg" alt="">
+          <img
+            src="/img/service/ser_dengbao.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div :class="['tab-content', 'con-yjxy', this.select === '应急响应' ? 'active' : '']">
@@ -216,28 +277,28 @@
 export default {
   data() {
     return {
-      select: '渗透测试'
-    }
+      select: '渗透测试',
+    };
   },
   methods: {
     selectTab(name) {
-      this.select = name
-    }
-  }
-}
+      this.select = name;
+    },
+  },
+};
 </script>
 
 <style lang="stylus">
 .ti2
-  text-indent 2em
+  text-indent: 2em;
 .mb-10
-  margin-bottom 10px
+  margin-bottom: 10px;
 .mb-15
-  margin-bottom 15px
+  margin-bottom: 15px;
 .mb-20
-  margin-bottom 20px
+  margin-bottom: 20px;
 .mb-30
-  margin-bottom 30px
+  margin-bottom: 30px;
 </style>
 
 <style lang="stylus" scoped>
@@ -286,7 +347,6 @@ export default {
     .menu-item:hover::after,
     .menu-item.active::after
       left 100%
-
 
     .menu-item:hover .text,
     .menu-item.active .text
@@ -424,5 +484,29 @@ export default {
       margin-bottom 20px
       text-indent 2em
       text-align justify
+@media (min-width: 320px) and (max-width: 599px)
+  .intro-box
+    max-width 100%
+    margin-top 30px
+    padding 0 10px
+    display block
+    .tab-menu
+      width auto
+      margin 0 auto
+      border none
+      box-shadow none
+      border-bottom 1px dashed #dedede
+      .menu-item
+        margin-top 0
+    .tab-content
+      width auto
+      padding 30px 10px 20px
 
+@media (min-width: 600px) and (max-width: 980px)
+  .intro-box
+    padding 0
+    .tab-menu
+      width 200px
+    .tab-content
+      padding 50px 5% 20px
 </style>

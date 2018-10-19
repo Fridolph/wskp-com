@@ -1,6 +1,10 @@
 <template>
   <nav class="nav">
-    <input type="checkbox" class="nav__cb" id="menu-cb"/>
+    <input
+      type="checkbox"
+      class="nav__cb"
+      id="menu-cb"
+    />
     <div class="nav__content">
       <ul class="nav__items">
         <li class="nav__item">
@@ -39,7 +43,10 @@
         </li>
       </ul>
     </div>
-    <label class="nav__btn" for="menu-cb"></label>
+    <label
+      class="nav__btn"
+      for="menu-cb"
+    ></label>
   </nav>
 </template>
 
@@ -47,15 +54,15 @@
 export default {
   data() {
     return {
-      isHover: false
-    }
+      isHover: false,
+    };
   },
   methods: {
     showMenu() {
-      this.isHover = true
-    }
-  }
-}
+      this.isHover = true;
+    },
+  },
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -237,4 +244,19 @@ export default {
   -webkit-transform: translateY(-7px) rotate(225deg);
           transform: translateY(-7px) rotate(225deg);
 }
+
+@media (min-width: 320px) and (max-width: 599px)
+  .nav__cb:checked ~ .nav__content
+    width auto
+  .nav__items
+    width auto
+    padding-right 40px
+  .nav__item
+    width auto
+    height 50px
+    line-height 50px
+  .nav__btn
+    width 60px
+    height 50px
+    line-height 50px
 </style>

@@ -1,10 +1,17 @@
 <template>
   <div class="page-module m-article-wrapper">
-    <div :class="['art-item', item.img ? 'has-img' : '']" v-for="item in articleList" :key="item.title">
+    <div
+      :class="['art-item', item.img ? 'has-img' : '']"
+      v-for="item in articleList"
+      :key="item.title"
+    >
       <div class="title">
         <h4 @click="toDetail(item)">{{item.title}}</h4>
       </div>
-      <img v-if="item.img" :src="item.img">
+      <img
+        v-if="item.img"
+        :src="item.img"
+      >
       <span class="date">{{item.date}}</span>
       <div class="desc">{{item.description}}</div>
     </div>
@@ -24,13 +31,13 @@
 </template>
 
 <script>
-import articleList from '@/config/articleList'
+import articleList from '@/config/articleList';
 
 export default {
   data() {
     return {
-      articleList
-    }
+      articleList,
+    };
   },
   methods: {
     toDetail(item) {
@@ -38,17 +45,17 @@ export default {
       this.$router.push({
         name: 'detail',
         query: {
-          id: item.id
+          id: item.id,
         },
         params: {
           title: item.title,
           date: item.date,
-          content: item.content
-        }
-      })
-    }
-  }
-}
+          content: item.content,
+        },
+      });
+    },
+  },
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -69,7 +76,6 @@ export default {
       right 0
       font-size 14px
 
-
     .title
       font-weight bold
       font-size 18px
@@ -79,7 +85,6 @@ export default {
         cursor pointer
         &:hover
           color #4882fa
-
 
     .desc
       font-size 14px
@@ -95,4 +100,12 @@ export default {
       top 40px
       width 160px
       height 120px
+
+@media (min-width: 320px) and (max-width: 599px)
+  .m-article-wrapper
+    .art-item
+      .date
+        display block
+        position static
+        margin: -10px 0 15px 0
 </style>

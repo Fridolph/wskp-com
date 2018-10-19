@@ -43,9 +43,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>
@@ -109,4 +107,14 @@ export default {
           color #777
         p
           color #999
+
+@media (min-width: 320px) and (max-width: 599px)
+  .m-1
+    .m-title
+      font-size 24px
+    .box-wrapper
+      flex-wrap wrap
+      .box
+        margin 0 4%
+        margin-bottom 30px
 </style>

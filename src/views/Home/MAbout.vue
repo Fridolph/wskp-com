@@ -27,9 +27,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>
@@ -47,4 +45,18 @@ export default {
       .desc
         font-size 12px
         line-height 1.7
+
+@media (min-width: 320px) and (max-width: 599px)
+  .about-us
+    margin 50px 0 70px
+    .about-list
+      margin-top 40px
+      flex-wrap wrap
+      .list-item
+        width 100%
+        margin-bottom 30px
+        .sub-title
+          margin-bottom 10px
+
+
 </style>

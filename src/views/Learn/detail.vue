@@ -5,7 +5,10 @@
       <div class="article-wrapper">
         <div class="title">{{article.title}}</div>
         <div class="date">{{article.date}}</div>
-        <div class="content" v-html="article.content"></div>
+        <div
+          class="content"
+          v-html="article.content"
+        ></div>
       </div>
     </div>
     <PageFooter />
@@ -14,44 +17,44 @@
 </template>
 
 <script>
-import PageContainer from '@/components/PageContainer'
-import PageHeader from '@/components/PageHeader'
-import PageFooter from '@/components/PageFooter'
-import PageTools from '../../components/PageTools'
+import PageContainer from '@/components/PageContainer';
+import PageHeader from '@/components/PageHeader';
+import PageFooter from '@/components/PageFooter';
+import PageTools from '../../components/PageTools';
 
 export default {
   components: {
     PageContainer,
     PageHeader,
     PageFooter,
-    PageTools
+    PageTools,
   },
   data() {
     return {
       article: {
-        title: ''
-      }
-    }
+        title: '',
+      },
+    };
   },
   watch: {
     ['$route'](newVal) {
       // console.log('研究详情 newVal', newVal)
-      let params = this.$route.params
-      this.article = params
-    }
+      let params = this.$route.params;
+      this.article = params;
+    },
   },
   mounted() {
-    let params = this.$route.params
-    this.article = params
-  }
-}
+    let params = this.$route.params;
+    this.article = params;
+  },
+};
 </script>
 
 <style lang="stylus">
 .article-wrapper
   max-width 830px
   margin 60px auto 100px
-  padding 0 15px
+  padding 0 30px
   .title
     text-align center
     font-size 24px

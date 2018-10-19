@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
+    <SmFixedMenu />
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -11,7 +12,12 @@
 </template>
 
 <script>
-export default {};
+import SmFixedMenu from './components/SmFixedMenu';
+export default {
+  components: {
+    SmFixedMenu,
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -26,4 +32,13 @@ a
   text-decoration: none;
 .page-content
   padding-top: 50px;
+body
+  &::-webkit-scrollbar
+    width: 7px;
+  &::-webkit-scrollbar-track
+    background-color: rgba(200, 200, 200, 0.6);
+    border-radius: 2px;
+  &::-webkit-scrollbar-thumb
+    background-color: rgba(66, 66, 66, 0.3);
+    border-radius: 2px;
 </style>

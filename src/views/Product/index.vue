@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import PageContainer from '@/components/PageContainer'
-import PageHeader from '@/components/PageHeader'
-import PageFooter from '@/components/PageFooter'
-import PageTools from '../../components/PageTools'
+import PageContainer from '@/components/PageContainer';
+import PageHeader from '@/components/PageHeader';
+import PageFooter from '@/components/PageFooter';
+import PageTools from '../../components/PageTools';
 // import MBanner from './MBanner'
 
 export default {
@@ -25,8 +25,8 @@ export default {
     PageFooter,
     PageTools,
     // MBanner
-  }
-}
+  },
+};
 </script>
 
 
@@ -39,4 +39,9 @@ export default {
     text-align center
     margin 50px auto 80px
     color #777
+
+@media (min-width: 320px) and (max-width: 599px)
+  .pro-module
+    .m-title
+      font-size 24px
 </style>

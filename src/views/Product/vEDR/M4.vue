@@ -31,9 +31,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>
@@ -116,4 +114,15 @@ export default {
 		opacity: 0;
 	}
 }
+
+@media (min-width: 320px) and (max-width: 599px)
+  .m-4 .threat-box
+    flex-wrap wrap
+    .item
+      margin-bottom 40px
+      &::after
+        display none
+      p
+        margin-bottom 15px
+
 </style>

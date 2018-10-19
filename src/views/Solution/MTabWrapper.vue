@@ -4,30 +4,53 @@
       <div class="tab-item">
         <div :class="this.select.indexOf('zf') > -1 ? 'item-active' : ''">政府</div>
         <ul class="sub-menu">
-          <li class="sub-item" :class="this.select === 'zf1' ? 'active' : ''" @click="selectTab('zf1')"><span>电子政务云信息安全解决方案</span></li>
-          <li class="sub-item" :class="this.select === 'zf2' ? 'active' : ''" @click="selectTab('zf2')"><span>政府行业信息安全解决方案</span></li>
+          <li
+            class="sub-item"
+            :class="this.select === 'zf1' ? 'active' : ''"
+            @click="selectTab('zf1')"
+          ><span>电子政务云信息安全解决方案</span></li>
+          <li
+            class="sub-item"
+            :class="this.select === 'zf2' ? 'active' : ''"
+            @click="selectTab('zf2')"
+          ><span>政府行业信息安全解决方案</span></li>
         </ul>
       </div>
       <div class="tab-item">
         <div :class="this.select.indexOf('jr') > -1 ? 'item-active' : ''">金融</div>
         <ul class="sub-menu">
-          <li class="sub-item" :class="this.select === 'jr1' ? 'active' : ''" @click="selectTab('jr1')"><span>金融行业信息安全解决方案</span></li>
+          <li
+            class="sub-item"
+            :class="this.select === 'jr1' ? 'active' : ''"
+            @click="selectTab('jr1')"
+          ><span>金融行业信息安全解决方案</span></li>
         </ul>
       </div>
       <div class="tab-item">
         <div :class="this.select.indexOf('ny') > -1 ? 'item-active' : ''">能源</div>
         <ul class="sub-menu">
-          <li class="sub-item" :class="this.select === 'ny1' ? 'active' : ''" @click="selectTab('ny1')"><span>能源行业信息安全解决方案</span></li>
+          <li
+            class="sub-item"
+            :class="this.select === 'ny1' ? 'active' : ''"
+            @click="selectTab('ny1')"
+          ><span>能源行业信息安全解决方案</span></li>
         </ul>
       </div>
       <div class="tab-item">
         <div :class="this.select.indexOf('yy') > -1 ? 'item-active' : ''">运营商</div>
         <ul class="sub-menu">
-          <li class="sub-item" :class="this.select === 'yy1' ? 'active' : ''" @click="selectTab('yy1')"><span>运营商IDC信息安全解决方案</span></li>
+          <li
+            class="sub-item"
+            :class="this.select === 'yy1' ? 'active' : ''"
+            @click="selectTab('yy1')"
+          ><span>运营商IDC信息安全解决方案</span></li>
         </ul>
       </div>
     </div>
-    <div class="tab-content" :class="this.select === 'zf1' ? 'active' : ''">
+    <div
+      class="tab-content"
+      :class="this.select === 'zf1' ? 'active' : ''"
+    >
       <h2 class="c-title">概述</h2>
       <p>电子政务网是我国政府信息化建设的关键，随着政府部门信息化程度的提高，对信息系统的依赖程度越来越高。同时，整个电子政务网的信息系统所面临的各种安全风险也日益严重，如何更好地为电子政务网和电子政务信息系统提供安全保障， 确保电子政务网的安全运行和信息化的健康发展是电子政务网络和信息系统建设所面临的一个主要问题。</p>
       <p>根据电子政务网的主要功能和独特的安全需求，结合国家相关政策，建立信息中心的安全管理平台，强化信息系统基础平台的安全管理，建设可信的信息系统环境，为电子政务信息中心的各类信息系统的安全、可靠、稳定、 高效的运行提供良好的基础和强有力的保障。</p>
@@ -46,12 +69,18 @@
       <p>电子政务外网的数据中心部署了大量服务器和存储系统，承载政府外网的关键业务和重要数据，如何保障数据的完整、可用和安全，是急需的问题。</p>
       <p>天蝎服务器威胁监测系统以攻击溯源为核心技术，以大数据为基础，设备联动为手段，是集威胁监测、攻击过程还原、弱点分析等功能于一体，可以帮助用户实现对应用服务器（WEB服务器、FTP服务器、DNS服务器、邮件服务器等）的集中监管，实时监测，保障用户应用服务器的数据安全。</p>
       <div class="img-wrapper">
-        <img src="/img/solution/zf1.jpg" alt="">
+        <img
+          src="/img/solution/zf1.jpg"
+          alt=""
+        >
       </div>
       <h3 class="c-sub-title">终端威胁实时监控</h3>
       <p>终端是信息安全的主战场。通过在终端部署天蝎终端威胁侦测与响应系统，来实现对终端的进程、服务、线程、注册表、文件、磁盘引导区 、主板BIOS区、操作系统恶意代码的实时监控，同时，借助外部威胁情报以及大数据分析能力，实现行为、特征、指令和内容的关联分析，最终实现对已知威胁的监测与发现及未知威胁的预测和预警。</p>
       <div class="img-wrapper">
-        <img src="/img/solution/zf2.jpg" alt="">
+        <img
+          src="/img/solution/zf2.jpg"
+          alt=""
+        >
       </div>
       <h2 class="c-title">方案价值</h2>
       <ul>
@@ -60,7 +89,10 @@
         <li>实现威胁处理能力强化，威胁情报关联，形成主动防御。</li>
       </ul>
     </div>
-    <div class="tab-content" :class="this.select === 'zf2' ? 'active' : ''">
+    <div
+      class="tab-content"
+      :class="this.select === 'zf2' ? 'active' : ''"
+    >
       <h2 class="c-title">概述</h2>
       <p>政府部门的系统架构普遍存在业务数据机密性要求高、业务连续性要求强、网络结构相对封闭、信息系统架构形式多样等特点。随着我国信息化进程的不断发展，政府部门的信息安全也越来越受到重视。特别是在2014年中央网络安全和信息化领导小组成立以后，标志着政府行业的网络安全已经上升至了国家战略。如何处理政府行业当前所面临的的安全威胁，成为了国家一个急需待解的问题。</p>
       <p>在处理安全问题的时候，如何有效的进行，成为了问题的关键。谚语说：“知彼知己，百战不殆”。</p>
@@ -75,7 +107,10 @@
         <li>缺乏对未知威胁的监测与分析，面对大量的APT攻击，检测及防护手段严重缺失。</li>
       </ul>
       <div class="img-wrapper">
-        <img src="/img/learn/zhengfu_01.jpg" alt="zhengfu_01">
+        <img
+          src="/img/learn/zhengfu_01.jpg"
+          alt="zhengfu_01"
+        >
       </div>
       <h2 class="c-title">解决方案</h2>
       <p>面对越来越发杂的政府办公环境，以及越来越复杂的网络威胁，政府应用在增加自由度的同时，对安全提出了更高的要求。本方案旨在解决政府行业信息系统的APT攻击检测和防御问题：</p>
@@ -84,7 +119,10 @@
       <h3 class="c-sub-title">网络流量防护</h3>
       <p>天蝎网络威胁检测系统是基于专用硬件平台的软硬件一体化系统，在分析网络攻击行为特征和数据特征的基础上研制的网络异常行为监测装备。该系统部署于核心及骨干网络中，弥补传统的基于特征匹配的攻击检测手段的不足，有助于形成对有组织、高隐蔽、长周期的定向攻击的一整套检测、识别、分析技术装备体系，对保护重要部门的关键信息系统，提升新技术条件下的网络攻击检测、防御能力，具有十分重要的意义。</p>
       <div class="img-wrapper">
-        <img src="/img/learn/zhengfu_02.jpg" alt="zhengfu_02">
+        <img
+          src="/img/learn/zhengfu_02.jpg"
+          alt="zhengfu_02"
+        >
       </div>
       <h3 class="c-sub-title">终端安全防护</h3>
       <p>天蝎终端安全防御体系涉及系统硬件底层检测、系统主机恶意代码检测、终端恶意进程检测、文件文本安全防护等。天蝎终端威胁侦测与响应系统，通过在终端部署终端传感器，可以实现对终端数据的实时监控，同时借助大数据分析平台的威胁处理措施，可以准确的实现对政府办公网终端恶意代码的查处，保障办公终端的数据安全。</p>
@@ -100,10 +138,16 @@
       </ul>
       <h2 class="c-title">案例</h2>
       <div class="img-wrapper t-l">
-        <img src="/img/learn/z1.jpg" alt="z1">
+        <img
+          src="/img/learn/z1.jpg"
+          alt="z1"
+        >
       </div>
     </div>
-    <div class="tab-content" :class="this.select === 'jr1' ? 'active' : ''">
+    <div
+      class="tab-content"
+      :class="this.select === 'jr1' ? 'active' : ''"
+    >
       <h2 class="c-title">概述</h2>
       <p>随着全球信息化的发展，互联网应用渗透到了各行各业。互联网金融借助互联网技术、移动通信技术，实现金融资源优化配置和应用普及，互联网金融的出现代表一个新兴金融时代的到来。随着第三方支付、移动支付、P2P信贷、 众筹融资等互联网金融概念已经被各方炒作的如火如荼、方兴未艾。在2014“两会”上，“互联网金融”首次出现在国务院总理李克强所做的《政府工作报告》中。鼓励互联网金融创新、为“余额宝”正名、加强互联网金融监管成为“两会”代表的共识。 而传统金融行业在市场的倒推下也面临着经营理念、经营方式、业务体系、战略渠道上的全面转型。</p>
       <p>信息流、资金流的安全性是互联网金融发展的基础和保障，随着棱镜门、钓鱼网站、网银盗窃等互联网安全事件层出不穷，不法分子犯罪技术不断提高，犯罪手段花样翻新。而一旦遭遇黑客攻击，互联网金融的正常运作将会受到影响， 危及消费者的资金安全和个人信息安全。2014年的“两会”中，互联网金融的安全性成为备受关注的焦点，除了法律法规、相关制度和行业标准不断完善的顶层设计，通过技术手段保护数据安全，防范黑客攻击已成为保障互联网金融安全的必要举措。</p>
@@ -120,14 +164,20 @@
       <h3 class="c-sub-title">终端安全全面防护</h3>
       <p>当网络攻击者试图来窃取用户的数据、获取用户身份、中断用户业务时，他们的最终目标是用户的终端。无论攻击者是上传恶意代码还是访问窃取敏感数据，活动都会发生在用户的系统上。通过部署天蝎终端侦测与响应系统， 来实现对终端的进程、服务、线程、注册表、文件、磁盘引导区 、主板BIOS区、操作系统恶意代码的实时监控，同时，借助外部威胁情报以及大数据分析能力，实现行为、特征、指令和内容的关联分析， 最终实现对已知威胁的监测和对未知威胁的预测和预警。</p>
       <div class="img-wrapper">
-        <img src="/img/learn/bank1.jpg" alt="">
+        <img
+          src="/img/learn/bank1.jpg"
+          alt=""
+        >
       </div>
       <h3 class="c-sub-title">数据中心流量防护</h3>
       <p>当大量的业务都集中在数据中心时，数据中心的业务安全性以及可靠性将异常重要。通过在网络流量出口处旁路部署天蝎网络威胁监测系统，以此来弥补传统的基于特征匹配的攻击检测手段的不足，实现对有组织、高隐蔽、 长周期等恶意定向攻击的精确监测。</p>
       <h3 class="c-sub-title">WEB网站安全防护</h3>
       <p>在网站服务器前部署一台天蝎服务器威胁监测系统，该系统集 Web应用的威胁检测、攻击过程还原、弱点分析等功能于一体。以此有效应对跨站攻击、网页挂马、敏感信息泄露等安全问题，充分保障门户网站的安全。</p>
       <div class="img-wrapper">
-        <img src="/img/learn/bank2.jpg" alt="">
+        <img
+          src="/img/learn/bank2.jpg"
+          alt=""
+        >
       </div>
       <h2 class="c-title">用户收益</h2>
       <ul>
@@ -140,11 +190,22 @@
       </ul>
       <h2 class="c-title">案例</h2>
       <div class="img-wrapper t-l">
-        <img src="/img/learn/j1.jpg" alt="" style="display:inline-block;vertical-align: middle">
-        <img src="/img/learn/j2.jpg" alt="" style="display:inline-block;vertical-align: middle;margin-left: 15px">
+        <img
+          src="/img/learn/j1.jpg"
+          alt=""
+          style="display:inline-block;vertical-align: middle"
+        >
+        <img
+          src="/img/learn/j2.jpg"
+          alt=""
+          style="display:inline-block;vertical-align: middle;margin-left: 15px"
+        >
       </div>
     </div>
-    <div class="tab-content" :class="this.select === 'ny1' ? 'active' : ''">
+    <div
+      class="tab-content"
+      :class="this.select === 'ny1' ? 'active' : ''"
+    >
       <h2 class="c-title">概述</h2>
       <p>电力行业是国民经济的基础产业，是国民经济发展和人民生活极其重要的基础设施之一。电网作为国家重要的基础设施，电网的安全关乎整个国家的稳定发展，是国家最基础的安全保护对象。</p>
       <p>电力公司的信息网络从组织上可划分为发电、调度两大系统和产电、输电、变电、售电、用电五大环节。其中，电力调度系统承担着对电厂发电机组运行状态的监控，调度和对厂站运行状态的监控、调度功能，是整个电力系统的控制中心。其信息网络也是电力行业信息化建设的重要组成。伴随着电力信息化进程的不断加快，信息流已经承载了大量的遥感、监测等重要业务信息，信息流的采集、传输、分析和处理已经构成了整个调度系统的中心内容。其次，电厂生产过程中的工业控制系统和终端工控主机等系统作为调度中心重要的调度对象和监测对象，也已经逐渐实现信息化的改造。电力生产环节作为电力公司的重要枢纽，其安全防护已经成为了保障电力供应的一个重要方面。</p>
@@ -164,7 +225,10 @@
       <h3 class="c-sub-title">主机实时监控</h3>
       <p>终端是电力行业安全监管的重要对象，无论攻击者的攻击方法是怎样，他们的最终目的都是终端。天蝎终端威胁侦测与响应系统依据大数据平台内嵌的机器学习模型，对恶意行为进行识别分析；通过部署终端安全传感器对终端进程、文件、网络数据开展实时监测，同时提供可视化和决策平台，帮助安全人员实现对安全事件全面快速地分析。</p>
       <div class="img-wrapper">
-        <img src="/img/learn/energy1.jpg" alt="energy1">
+        <img
+          src="/img/learn/energy1.jpg"
+          alt="energy1"
+        >
       </div>
       <h3 class="c-sub-title">网络数据传输防护措施</h3>
       <p>通过在单位核心及骨干网络中部署天蝎网络威胁检测系统，对网络中恶意流量进行数据特征和行为分析，以此来弥补传统的基于特征匹配的攻击检测手段的不足，形成对有组织、高隐蔽、长周期的定向攻击的准确分析判断。</p>
@@ -182,10 +246,16 @@
       </ul>
       <h2 class="c-title">案例</h2>
       <div class="img-wrapper t-l">
-        <img src="/img/learn/e1.jpg" alt="e1">
+        <img
+          src="/img/learn/e1.jpg"
+          alt="e1"
+        >
       </div>
     </div>
-    <div class="tab-content" :class="this.select === 'yy1' ? 'active' : ''">
+    <div
+      class="tab-content"
+      :class="this.select === 'yy1' ? 'active' : ''"
+    >
       <h2 class="c-title">概述</h2>
       <p>近年来信息产业已发展成为中国经济的支撑产业，其中，电信运营商提供服务产业所占比例不容小觑，运营商的快速发展加快了我国信息化建设。</p>
       <p>但是信息化的发展同样也存在着“双刃剑”的利与弊，运营商业务平台由于存储了大量的公众用户信息，自然也就存在着巨大的利益诱惑。利益驱使了很多的不法分子铤而走险，进行信息的盗取，数据泄密事件愈发的严重，运营商的安全也变得岌岌可危。运营商的整个安全架构涉及门户网站的发布，数据中心的流量传输，终端用户的系统使用，移动用户和互联网的接入等方面。其中，数据中心作为运营商业务的聚合承载平台，越来越具有牵一发而动全身的效果。纵观近年来几次社会影响较大的电信服务中断事件，大都与运营商IDC数据中心无法正常运营有关，而其中最直接的原因即是IDC数据中心受到来自网络的各类安全攻击所致。构造一个网络与安全相融合的基础平台，是运营商IDC建设的必经之路。</p>
@@ -200,7 +270,10 @@
       <h2 class="c-title">解决方案</h2>
       <p>天蝎网络安全解决方案的设计目标是从运营商的安全的角度出发，依据大数据机器学习分析平台为用户打造的高度可控的安全解决方案。面对越来越复杂的网络环境以及网络威胁，提供对威胁数据的实时监控，保障恶意代码的及时识别，同时提供分析、可视化和决策平台，对安全事件进行全面快速响应。</p>
       <div class="img-wrapper">
-        <img src="/img/learn/idc_02.jpg" alt="idc_02">
+        <img
+          src="/img/learn/idc_02.jpg"
+          alt="idc_02"
+        >
       </div>
       <h3 class="c-sub-title">未知威胁防护</h3>
       <p>通过部署天蝎大数据分析平台，依据内嵌的机器学习模型，可以做到对未知威胁的有效识别，实现真正的防患于未然。</p>
@@ -222,7 +295,10 @@
       </ul>
       <h2 class="c-title">案例</h2>
       <div class="img-wrapper t-l">
-        <img src="/img/learn/idc_01.jpg" alt="idc_01">
+        <img
+          src="/img/learn/idc_01.jpg"
+          alt="idc_01"
+        >
       </div>
     </div>
   </div>
@@ -232,15 +308,15 @@
 export default {
   data() {
     return {
-      select: 'zf1'
-    }
+      select: 'zf1',
+    };
   },
   methods: {
     selectTab(type) {
-      this.select = type
-    }
-  }
-}
+      this.select = type;
+    },
+  },
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -313,4 +389,11 @@ export default {
         list-style disc
 .mb-30
   margin-bottom 30px
+
+@media (min-width: 320px) and (max-width: 599px)
+  .m-tab-wrapper
+    .tab-nav
+      position static
+    .tab-content
+      margin-left 0
 </style>

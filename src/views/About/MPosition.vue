@@ -44,4 +44,12 @@
       line-height 1.5
       p
         margin-bottom 15px
+
+@media (min-width: 320px) and (max-width: 599px)
+  .addr-wrapper
+    .addr-list
+      flex-wrap wrap
+      padding 30px 0 15px 0
+      .list-item
+        margin-bottom 15px
 </style>

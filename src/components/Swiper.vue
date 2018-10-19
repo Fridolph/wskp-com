@@ -1,38 +1,65 @@
 <template>
   <div class="swiper-container">
-    <swiper :options="swiperOption" ref="homeSwiper">
+    <swiper
+      :options="swiperOption"
+      ref="homeSwiper"
+    >
       <!-- slides -->
       <swiper-slide>
-        <img src="/img/banner/banner1.jpg" alt="">
+        <img
+          src="/img/banner/banner1.jpg"
+          alt=""
+        >
       </swiper-slide>
       <swiper-slide>
-        <img src="/img/banner/banner2.jpg" alt="">
+        <img
+          src="/img/banner/banner2.jpg"
+          alt=""
+        >
       </swiper-slide>
       <swiper-slide>
-        <img src="/img/banner/banner3.jpg" alt="">
+        <img
+          src="/img/banner/banner3.jpg"
+          alt=""
+        >
       </swiper-slide>
       <swiper-slide>
-        <img src="/img/banner/banner4.jpg" alt="">
+        <img
+          src="/img/banner/banner4.jpg"
+          alt=""
+        >
       </swiper-slide>
       <swiper-slide>
-        <img src="/img/banner/banner5.jpg" alt="">
+        <img
+          src="/img/banner/banner5.jpg"
+          alt=""
+        >
       </swiper-slide>
       <!-- Optional controls -->
-      <div class="swiper-pagination" slot="pagination"></div>
-      <div class="swiper-button-prev" slot="button-prev"></div>
-      <div class="swiper-button-next" slot="button-next"></div>
+      <div
+        class="swiper-pagination"
+        slot="pagination"
+      ></div>
+      <div
+        class="swiper-button-prev"
+        slot="button-prev"
+      ></div>
+      <div
+        class="swiper-button-next"
+        slot="button-next"
+      ></div>
     </swiper>
   </div>
 </template>
 
 <script>
-import 'swiper/dist/css/swiper.css'
-import { swiper, swiperSlide } from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css';
+import { swiper, swiperSlide } from 'vue-awesome-swiper';
 
 export default {
   components: {
     swiper,
-    swiperSlide
+    swiperSlide,
   },
   data() {
     return {
@@ -41,17 +68,17 @@ export default {
         loop: true,
         delay: 5000,
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
         },
         navigation: {
           nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
+          prevEl: '.swiper-button-prev',
         },
-        notNextTick: true
-      }
-    }
-  }
-}
+        notNextTick: true,
+      },
+    };
+  },
+};
 </script>
 
 <style lang="stylus" scoped>
@@ -60,6 +87,11 @@ export default {
   overflow hidden
   img
     max-width 100%
+
+@media (min-width: 320px) and (max-width: 599px)
+  .swiper-container
+    img
+      height 200px
 </style>
 
 <style lang="stylus">

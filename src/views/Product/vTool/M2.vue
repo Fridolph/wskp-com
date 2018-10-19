@@ -4,22 +4,34 @@
     <div class="show-box">
       <div class="box">
         <div class="img-wrapper">
-          <img src="/img/product/jc_1.jpg" alt="tool">
+          <img
+            src="/img/product/jc_1.jpg"
+            alt="tool"
+          >
         </div>
       </div>
       <div class="box">
         <div class="img-wrapper">
-          <img src="/img/product/jc_2.jpg" alt="tool">
+          <img
+            src="/img/product/jc_2.jpg"
+            alt="tool"
+          >
         </div>
       </div>
       <div class="box">
         <div class="img-wrapper">
-          <img src="/img/product/jc_3.jpg" alt="tool">
+          <img
+            src="/img/product/jc_3.jpg"
+            alt="tool"
+          >
         </div>
       </div>
       <div class="box">
         <div class="img-wrapper">
-          <img src="/img/product/jc_4.jpg" alt="tool">
+          <img
+            src="/img/product/jc_4.jpg"
+            alt="tool"
+          >
         </div>
       </div>
     </div>
@@ -106,9 +118,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>
@@ -157,4 +167,12 @@ dl
           font-size 10px
           line-height 1.3
           padding 0 3px
+@media (min-width: 320px) and (max-width: 599px)
+  .m-2
+    .m-title
+      font-size 24px
+    .show-box
+      flex-wrap wrap
+      .box
+        margin 0 auto
 </style>

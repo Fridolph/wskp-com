@@ -9,7 +9,7 @@
           <div class="circle"></div>
           <i class="icon icon1"></i>
           <div class="desc">
-            脆弱性<br/>分析
+            脆弱性<br />分析
           </div>
         </div>
         <div class="info">
@@ -35,7 +35,7 @@
           <div class="circle"></div>
           <i class="icon icon3"></i>
           <div class="desc">
-            合规性<br/>评估
+            合规性<br />评估
           </div>
         </div>
         <div class="info">
@@ -61,21 +61,27 @@
     </ul>
 
     <div class="more-wrapper">
-      <a href="/" class="btn btn-more">了解更多</a>
+      <a
+        href="/"
+        class="btn btn-more"
+      >了解更多</a>
     </div>
 
-    <div class="service-bg">
+    <div class="service-bg width-screen">
       <div class="text">网络威胁无处不在,网蝎确保安全</div>
+    </div>
+    <div class="service-bg small-screen">
+      <div class="text">
+        网络威胁无处不在<br />
+        网蝎确保安全
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
-
 
 <style lang="stylus" scoped>
 .safe-service
@@ -184,13 +190,44 @@ export default {
 
 .service-bg
   margin-top 90px
-  height 270px
-  line-height 270px
+  display flex
   background url('/img/banner/service-bg.jpg') no-repeat center center
   background-size 100% 100%
   background-attachment fixed
+  justify-content center
+  align-items center
   .text
     color #fff
-    font-size 48px
     text-align center
+
+.width-screen
+  display block
+  height 270px
+  line-height 270px
+  .text
+    font-size 42px
+.small-screen
+  display none
+
+@media (min-width: 320px) and (max-width: 599px)
+  .safe-service
+    padding-top 50px
+
+  .service-box
+    flex-wrap wrap
+    .service-item
+      width 50%
+      margin-bottom 40px
+  .more-wrapper
+    margin-top 40px
+  .small-screen
+    display block
+    height 180px
+    .text
+      padding-top 40px
+      font-size 24px
+      line-height 36px
+
+  .width-screen
+    display none
 </style>

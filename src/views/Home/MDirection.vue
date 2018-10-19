@@ -71,4 +71,14 @@
         background url('/img/icon/fx-tsgz.png') no-repeat center 20px
         background-size 82px 62px
 
+@media (min-width: 320px) and (max-width: 599px)
+  .learn-direction
+    padding 40px 0
+    .list
+      flex-wrap wrap
+      .item
+        width 100%
+        margin-bottom 140px
+        &:last-child
+          margin-bottom 0
 </style>
