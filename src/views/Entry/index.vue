@@ -101,5 +101,4 @@ export default {
       max-width 90%
     footer
       bottom 50px
-
 </style>

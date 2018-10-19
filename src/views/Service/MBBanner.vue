@@ -1,14 +1,15 @@
 <template>
   <div class="about-module m-banner">
-    <img src="/img/banner/safe.jpg" alt="">
+    <img
+      src="/img/banner/safe.jpg"
+      alt=""
+    >
     <span>网思科平为安全而生</span>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>

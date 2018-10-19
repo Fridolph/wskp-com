@@ -44,13 +44,13 @@ export default {
 
 <style lang="stylus">
 .page-content
-  flex: 1;
+  flex 1
 .home-module
   .title
-    font-size: 18px;
-    font-weight: 550;
-    text-align: center;
+    font-size: 18px
+    font-weight: 550
+    text-align: center
     span
-      padding-bottom: 5px;
-      border-bottom: 1px solid #dedede;
+      padding-bottom: 5px
+      border-bottom: 1px solid #dedede
 </style>

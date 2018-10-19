@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import MBanner from './MBanner'
-import M1 from './M1'
-import M2 from './M2'
-import M3 from './M3'
-import M4 from './M4'
+import MBanner from './MBanner';
+import M1 from './M1';
+import M2 from './M2';
+import M3 from './M3';
+import M4 from './M4';
 
 export default {
   components: {
@@ -21,7 +21,7 @@ export default {
     M1,
     M2,
     M3,
-    M4
-  }
-}
+    M4,
+  },
+};
 </script>

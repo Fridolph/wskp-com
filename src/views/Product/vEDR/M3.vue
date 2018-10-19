@@ -2,15 +2,16 @@
   <div class="pro-module m-3">
     <h2 class="m-title">威胁溯源</h2>
     <div class="img-wrapper">
-      <img src="/img/product/edr_wxsy.jpg" alt="">
+      <img
+        src="/img/product/edr_wxsy.jpg"
+        alt=""
+      >
     </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>

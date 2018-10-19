@@ -6,32 +6,50 @@
     <div class="honor-list">
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h1.jpg" alt="">
+          <img
+            src="/img/honor/h1.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h2.jpg" alt="">
+          <img
+            src="/img/honor/h2.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h3.jpg" alt="">
+          <img
+            src="/img/honor/h3.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h4.jpg" alt="">
+          <img
+            src="/img/honor/h4.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h5.jpg" alt="">
+          <img
+            src="/img/honor/h5.jpg"
+            alt=""
+          >
         </div>
       </div>
       <div class="list-item">
         <div class="img-wrapper">
-          <img src="/img/honor/h6.jpg" alt="">
+          <img
+            src="/img/honor/h6.jpg"
+            alt=""
+          >
         </div>
       </div>
     </div>

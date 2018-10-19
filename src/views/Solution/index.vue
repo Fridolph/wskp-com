@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import PageContainer from '@/components/PageContainer'
-import PageHeader from '@/components/PageHeader'
-import PageFooter from '@/components/PageFooter'
-import PageTools from '../../components/PageTools'
-import MBanner from './MBanner'
-import MTabWrapper from './MTabWrapper'
+import PageContainer from '@/components/PageContainer';
+import PageHeader from '@/components/PageHeader';
+import PageFooter from '@/components/PageFooter';
+import PageTools from '../../components/PageTools';
+import MBanner from './MBanner';
+import MTabWrapper from './MTabWrapper';
 
 export default {
   components: {
@@ -25,7 +25,7 @@ export default {
     PageFooter,
     PageTools,
     MBanner,
-    MTabWrapper
-  }
-}
+    MTabWrapper,
+  },
+};
 </script>

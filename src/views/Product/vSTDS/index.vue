@@ -6,15 +6,15 @@
 </template>
 
 <script>
-import MBanner from './MBanner'
-import M1 from './M1'
+import MBanner from './MBanner';
+import M1 from './M1';
 
 export default {
   components: {
     MBanner,
     M1,
-  }
-}
+  },
+};
 </script>
 
 

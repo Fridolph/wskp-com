@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import PageContainer from '@/components/PageContainer'
-import PageHeader from '@/components/PageHeader'
-import PageFooter from '@/components/PageFooter'
-import PageTools from '../../components/PageTools'
-import MBanner from './MBanner'
-import MIntro from './MIntro'
-import MBBanner from './MBBanner'
+import PageContainer from '@/components/PageContainer';
+import PageHeader from '@/components/PageHeader';
+import PageFooter from '@/components/PageFooter';
+import PageTools from '../../components/PageTools';
+import MBanner from './MBanner';
+import MIntro from './MIntro';
+import MBBanner from './MBBanner';
 
 export default {
   components: {
@@ -28,7 +28,7 @@ export default {
     PageTools,
     MBanner,
     MIntro,
-    MBBanner
-  }
-}
+    MBBanner,
+  },
+};
 </script>

@@ -1,13 +1,14 @@
 <template>
   <div class="pro-module m-banner">
-    <img src="/img/product/banner_tsgz.jpg" alt="">
+    <img
+      src="/img/product/banner_tsgz.jpg"
+      alt=""
+    >
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="stylus" scoped>
